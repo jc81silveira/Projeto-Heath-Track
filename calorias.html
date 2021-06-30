@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adição de calorias</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    
+    
+</head>
+<body>
+    <main class="container-fluid">
+        <p>
+            <h1>Adição de alimentos</h1>
+        </p>
+        <table id="table1" class="table table-striped table-hover">
+            <tr>
+                <th>Tipo de alimento</th>
+                <th>Caloria</th>
+            </tr>
+            <tr>
+                <td><select class="form-select" aria-label="Default select example">
+                    <option selected>Escolha o alimento</option>
+                    <option value="1">Banana</option>
+                    <option value="2">Frango</option>
+                    <option value="3">Vitamina</option>
+                    <option value="4">Batata doce</option>
+                    <option value="5">Whey protein</option>
+                </select>
+                </td>
+                <td>120</td>
+            </tr>
+            <tr>
+                <td colspan="2"> <button type="button" class="btn btn-success">Inserir</button> </td>
+            </tr>
+        </table>
+        <p>
+            <h1>Histórico</h1>
+        </p>
+        <table id="table2" class="table table-striped table-hover">
+            <tr>
+                <th>Alimento</th>
+                <th>Caloria</th>
+                <th>Remover</th>
+            </tr>
+            <tr>
+                <td>Banana</td>
+                <td>120</td>
+                <td> <button type="reset" class="btn btn-secondary">
+                        <i class="bi bi-trash"></i>
+                     </button>
+                </td>
+            </tr>
+            <tr>
+                <td>Frango</td>
+                <td></td>
+                <td> <button type="reset" class="btn btn-secondary">
+                         <i class="bi bi-trash"></i>
+                     </button>
+                </td>
+            </tr>
+            <tr>
+                <td>Vitamina</td>
+                <td></td>
+                <td> <button type="reset" class="btn btn-secondary">
+                        <i class="bi bi-trash"></i>
+                     </button>
+                </td>
+            </tr>
+            <tr>
+                <td>Batata doce</td>
+                <td></td>
+                <td> <button type="reset" class="btn btn-secondary">
+                         <i class="bi bi-trash"></i>
+                     </button>
+                </td>
+            </tr>
+        </table>
+        <p>
+            <h1>Total de calorias</h1>
+        </p>
+        <div id="soma"><div class="d-inline p-2 bg-primary text-white">120</div>
+            
+        </div>
+                   
+        </table>
+        <div class="col">
+            <a href="usuario.html" class="btn btn-primary">Inicial</a>
+            <a href="assinaturas.html" class="btn btn-primary">Planos</a>
+            <a href="Login.html" class="btn btn-primary">Sair</a>
+        </div>
+       
+            
+    </main>
+</body>
+</html>

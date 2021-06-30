@@ -1,0 +1,35 @@
+body{
+    background-image: linear-gradient(360deg, rgb(12, 158, 24), rgb(12, 195, 57), rgb(20, 240, 67), rgb(161, 240, 172));
+    background-attachment: fixed;
+}
+h1{
+    text-align: center;
+}
+div#soma{
+    text-align: center; font-size: 40px;
+}
+table{
+    text-align: center;
+}
+.d-inline{
+    border-radius: 10%;
+}
+#peso{
+    position: relative; top: -550px; left: 15%; width: 80%;
+}
+h6{
+       font-size: 3ex; 
+}
+#planos {
+    height: 500px;
+}
+#planos .carousel-item {
+    height: 100%;
+    background-color: rgba(11, 128, 139, 0.493);
+}
+#planos .carousel-inner {
+    height: 100%;
+}
+#controle {
+    position: relative; top: -550px; left: -10px;
+}
